@@ -1,0 +1,241 @@
+env,policy,cik,split,qtype,stratum,mode,n,answered,correct,supported,correct_abstain,stale,leak,withdrawn,calls
+ledger,B1c time-filtered RAG + NR gate (claim release),19612,test,current,stable,primary,155,155,155,155,0,0,0,0,155
+ledger,B3 FinMemGuard-rule (claim release),19612,test,current,stable,primary,155,155,155,155,0,0,0,0,137
+ledger,B3* tuned heuristic,19612,test,current,stable,primary,155,155,155,155,0,0,0,0,133
+ledger,B4 learned (lam=3),19612,test,current,stable,primary,155,155,155,155,0,0,0,0,117
+ledger,B2 TTL memory (90d),19612,test,current,stable,primary,155,155,155,155,0,0,0,0,128
+ledger,B2 naive persistent memory,19612,test,current,stable,primary,155,155,155,155,0,0,0,0,88
+ledger,B1c time-filtered RAG + NR gate (claim release),19612,test,latest_annual,stable,primary,70,70,70,70,0,0,0,0,70
+ledger,B3 FinMemGuard-rule (claim release),19612,test,latest_annual,stable,primary,70,70,70,70,0,0,0,0,52
+ledger,B3* tuned heuristic,19612,test,latest_annual,stable,primary,70,70,70,70,0,0,0,0,21
+ledger,B4 learned (lam=3),19612,test,latest_annual,stable,primary,70,70,70,70,0,0,0,0,27
+ledger,B2 TTL memory (90d),19612,test,latest_annual,stable,primary,70,70,62,62,0,8,0,0,38
+ledger,B2 naive persistent memory,19612,test,latest_annual,stable,primary,70,70,7,7,0,63,0,0,3
+ledger,B1c time-filtered RAG + NR gate (claim release),19612,test,historical,stable,primary,13,13,13,13,0,0,0,0,13
+ledger,B3 FinMemGuard-rule (claim release),19612,test,historical,stable,primary,13,13,13,13,0,0,0,0,13
+ledger,B3* tuned heuristic,19612,test,historical,stable,primary,13,13,13,13,0,0,0,0,13
+ledger,B4 learned (lam=3),19612,test,historical,stable,primary,13,13,13,13,0,0,0,0,13
+ledger,B2 TTL memory (90d),19612,test,historical,stable,primary,13,13,13,13,0,0,0,0,13
+ledger,B2 naive persistent memory,19612,test,historical,stable,primary,13,13,10,8,0,0,5,0,5
+ledger,B1c time-filtered RAG + NR gate (claim release),19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,11
+ledger,B3 FinMemGuard-rule (claim release),19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,11
+ledger,B3* tuned heuristic,19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,11
+ledger,B4 learned (lam=3),19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,3
+ledger,B2 TTL memory (90d),19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,11
+ledger,B2 naive persistent memory,19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,11
+ledger,B1c time-filtered RAG + NR gate (claim release),19612,test,current,revised,primary,30,30,30,30,0,0,0,0,30
+ledger,B3 FinMemGuard-rule (claim release),19612,test,current,revised,primary,30,30,30,30,0,0,0,0,28
+ledger,B3* tuned heuristic,19612,test,current,revised,primary,30,30,27,27,0,3,0,0,25
+ledger,B4 learned (lam=3),19612,test,current,revised,primary,30,30,30,30,0,0,0,0,25
+ledger,B2 TTL memory (90d),19612,test,current,revised,primary,30,30,28,28,0,2,0,0,24
+ledger,B2 naive persistent memory,19612,test,current,revised,primary,30,30,18,18,0,12,0,0,9
+ledger,B1c time-filtered RAG + NR gate (claim release),19612,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+ledger,B3 FinMemGuard-rule (claim release),19612,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+ledger,B3* tuned heuristic,19612,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+ledger,B4 learned (lam=3),19612,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+ledger,B2 TTL memory (90d),19612,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+ledger,B2 naive persistent memory,19612,test,historical,undisclosed,primary,1,1,0,0,0,0,1,0,0
+llm,B1c time-filtered RAG + NR gate (claim release),19612,test,current,stable,primary,155,109,21,21,0,88,0,0,155
+llm,B3 FinMemGuard-rule (claim release),19612,test,current,stable,primary,155,109,21,21,0,88,0,0,144
+llm,B3* tuned heuristic,19612,test,current,stable,primary,155,110,21,21,0,89,0,0,140
+llm,B4 learned (lam=3),19612,test,current,stable,primary,155,110,21,21,0,89,0,0,136
+llm,B2 TTL memory (90d),19612,test,current,stable,primary,155,110,21,21,0,89,0,0,138
+llm,B2 naive persistent memory,19612,test,current,stable,primary,155,120,23,23,0,97,0,0,105
+llm,B1c time-filtered RAG + NR gate (claim release),19612,test,latest_annual,stable,primary,70,70,19,19,0,51,0,0,70
+llm,B3 FinMemGuard-rule (claim release),19612,test,latest_annual,stable,primary,70,70,19,19,0,51,0,0,52
+llm,B3* tuned heuristic,19612,test,latest_annual,stable,primary,70,70,19,19,0,51,0,0,21
+llm,B4 learned (lam=3),19612,test,latest_annual,stable,primary,70,70,19,19,0,51,0,0,37
+llm,B2 TTL memory (90d),19612,test,latest_annual,stable,primary,70,70,16,16,0,54,0,0,38
+llm,B2 naive persistent memory,19612,test,latest_annual,stable,primary,70,70,2,2,0,68,0,0,3
+llm,B1c time-filtered RAG + NR gate (claim release),19612,test,historical,stable,primary,13,12,2,2,0,10,0,0,13
+llm,B3 FinMemGuard-rule (claim release),19612,test,historical,stable,primary,13,12,2,2,0,10,0,0,13
+llm,B3* tuned heuristic,19612,test,historical,stable,primary,13,12,2,2,0,10,0,0,13
+llm,B4 learned (lam=3),19612,test,historical,stable,primary,13,12,2,2,0,10,0,0,13
+llm,B2 TTL memory (90d),19612,test,historical,stable,primary,13,12,2,2,0,10,0,0,13
+llm,B2 naive persistent memory,19612,test,historical,stable,primary,13,10,1,1,0,6,3,0,5
+llm,B1c time-filtered RAG + NR gate (claim release),19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,11
+llm,B3 FinMemGuard-rule (claim release),19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,11
+llm,B3* tuned heuristic,19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,11
+llm,B4 learned (lam=3),19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,3
+llm,B2 TTL memory (90d),19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,11
+llm,B2 naive persistent memory,19612,test,current,undisclosed,primary,11,0,0,0,11,0,0,0,11
+llm,B1c time-filtered RAG + NR gate (claim release),19612,test,current,revised,primary,30,14,5,5,0,9,0,0,30
+llm,B3 FinMemGuard-rule (claim release),19612,test,current,revised,primary,30,14,5,5,0,9,0,0,30
+llm,B3* tuned heuristic,19612,test,current,revised,primary,30,17,5,5,0,12,0,0,27
+llm,B4 learned (lam=3),19612,test,current,revised,primary,30,14,5,5,0,9,0,0,30
+llm,B2 TTL memory (90d),19612,test,current,revised,primary,30,15,5,5,0,10,0,0,28
+llm,B2 naive persistent memory,19612,test,current,revised,primary,30,20,4,4,0,16,0,0,15
+llm,B1c time-filtered RAG + NR gate (claim release),19612,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+llm,B3 FinMemGuard-rule (claim release),19612,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+llm,B3* tuned heuristic,19612,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+llm,B4 learned (lam=3),19612,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+llm,B2 TTL memory (90d),19612,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+llm,B2 naive persistent memory,19612,test,historical,undisclosed,primary,1,1,0,0,0,0,1,0,0
+ledger,B1c time-filtered RAG + NR gate (claim release),1658432,test,current,stable,primary,77,77,77,77,0,0,0,0,77
+ledger,B3 FinMemGuard-rule (claim release),1658432,test,current,stable,primary,77,77,77,77,0,0,0,0,62
+ledger,B3* tuned heuristic,1658432,test,current,stable,primary,77,77,77,77,0,0,0,0,58
+ledger,B4 learned (lam=3),1658432,test,current,stable,primary,77,77,77,77,0,0,0,0,48
+ledger,B2 TTL memory (90d),1658432,test,current,stable,primary,77,77,77,77,0,0,0,0,57
+ledger,B2 naive persistent memory,1658432,test,current,stable,primary,77,77,77,77,0,0,0,0,37
+ledger,B1c time-filtered RAG + NR gate (claim release),1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,34
+ledger,B3 FinMemGuard-rule (claim release),1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,34
+ledger,B3* tuned heuristic,1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,34
+ledger,B4 learned (lam=3),1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,30
+ledger,B2 TTL memory (90d),1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,34
+ledger,B2 naive persistent memory,1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,34
+ledger,B1c time-filtered RAG + NR gate (claim release),1658432,test,latest_annual,stable,primary,42,42,42,42,0,0,0,0,42
+ledger,B3 FinMemGuard-rule (claim release),1658432,test,latest_annual,stable,primary,42,42,42,42,0,0,0,0,16
+ledger,B3* tuned heuristic,1658432,test,latest_annual,stable,primary,42,42,42,42,0,0,0,0,7
+ledger,B4 learned (lam=3),1658432,test,latest_annual,stable,primary,42,42,42,42,0,0,0,0,9
+ledger,B2 TTL memory (90d),1658432,test,latest_annual,stable,primary,42,42,39,39,0,3,0,0,15
+ledger,B2 naive persistent memory,1658432,test,latest_annual,stable,primary,42,42,15,15,0,27,0,0,2
+ledger,B1c time-filtered RAG + NR gate (claim release),1658432,test,historical,undisclosed,primary,9,0,0,0,9,0,0,0,9
+ledger,B3 FinMemGuard-rule (claim release),1658432,test,historical,undisclosed,primary,9,0,0,0,9,0,0,0,9
+ledger,B3* tuned heuristic,1658432,test,historical,undisclosed,primary,9,0,0,0,9,0,0,0,9
+ledger,B4 learned (lam=3),1658432,test,historical,undisclosed,primary,9,0,0,0,9,0,0,0,9
+ledger,B2 TTL memory (90d),1658432,test,historical,undisclosed,primary,9,0,0,0,9,0,0,0,9
+ledger,B2 naive persistent memory,1658432,test,historical,undisclosed,primary,9,7,0,0,2,0,7,0,3
+ledger,B1c time-filtered RAG + NR gate (claim release),1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,4
+ledger,B3 FinMemGuard-rule (claim release),1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,4
+ledger,B3* tuned heuristic,1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,4
+ledger,B4 learned (lam=3),1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,4
+ledger,B2 TTL memory (90d),1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,4
+ledger,B2 naive persistent memory,1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,1
+ledger,B1c time-filtered RAG + NR gate (claim release),1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+ledger,B3 FinMemGuard-rule (claim release),1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+ledger,B3* tuned heuristic,1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+ledger,B4 learned (lam=3),1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+ledger,B2 TTL memory (90d),1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+ledger,B2 naive persistent memory,1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+llm,B1c time-filtered RAG + NR gate (claim release),1658432,test,current,stable,primary,77,69,64,64,0,5,0,0,77
+llm,B3 FinMemGuard-rule (claim release),1658432,test,current,stable,primary,77,69,64,64,0,5,0,0,62
+llm,B3* tuned heuristic,1658432,test,current,stable,primary,77,69,64,64,0,5,0,0,58
+llm,B4 learned (lam=3),1658432,test,current,stable,primary,77,69,64,64,0,5,0,0,50
+llm,B2 TTL memory (90d),1658432,test,current,stable,primary,77,69,64,64,0,5,0,0,59
+llm,B2 naive persistent memory,1658432,test,current,stable,primary,77,69,64,64,0,5,0,0,40
+llm,B1c time-filtered RAG + NR gate (claim release),1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,34
+llm,B3 FinMemGuard-rule (claim release),1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,34
+llm,B3* tuned heuristic,1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,34
+llm,B4 learned (lam=3),1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,30
+llm,B2 TTL memory (90d),1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,34
+llm,B2 naive persistent memory,1658432,test,current,undisclosed,primary,34,0,0,0,34,0,0,0,34
+llm,B1c time-filtered RAG + NR gate (claim release),1658432,test,latest_annual,stable,primary,42,38,24,24,0,14,0,0,42
+llm,B3 FinMemGuard-rule (claim release),1658432,test,latest_annual,stable,primary,42,38,24,24,0,14,0,0,19
+llm,B3* tuned heuristic,1658432,test,latest_annual,stable,primary,42,42,28,28,0,14,0,0,7
+llm,B4 learned (lam=3),1658432,test,latest_annual,stable,primary,42,42,28,28,0,14,0,0,9
+llm,B2 TTL memory (90d),1658432,test,latest_annual,stable,primary,42,39,23,23,0,16,0,0,17
+llm,B2 naive persistent memory,1658432,test,latest_annual,stable,primary,42,42,15,15,0,27,0,0,2
+llm,B1c time-filtered RAG + NR gate (claim release),1658432,test,historical,undisclosed,primary,9,0,0,0,9,0,0,0,9
+llm,B3 FinMemGuard-rule (claim release),1658432,test,historical,undisclosed,primary,9,0,0,0,9,0,0,0,9
+llm,B3* tuned heuristic,1658432,test,historical,undisclosed,primary,9,0,0,0,9,0,0,0,9
+llm,B4 learned (lam=3),1658432,test,historical,undisclosed,primary,9,0,0,0,9,0,0,0,9
+llm,B2 TTL memory (90d),1658432,test,historical,undisclosed,primary,9,0,0,0,9,0,0,0,9
+llm,B2 naive persistent memory,1658432,test,historical,undisclosed,primary,9,6,0,0,3,0,6,0,3
+llm,B1c time-filtered RAG + NR gate (claim release),1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,4
+llm,B3 FinMemGuard-rule (claim release),1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,4
+llm,B3* tuned heuristic,1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,4
+llm,B4 learned (lam=3),1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,4
+llm,B2 TTL memory (90d),1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,4
+llm,B2 naive persistent memory,1658432,test,historical,stable,primary,4,4,4,4,0,0,0,0,1
+llm,B1c time-filtered RAG + NR gate (claim release),1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+llm,B3 FinMemGuard-rule (claim release),1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+llm,B3* tuned heuristic,1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+llm,B4 learned (lam=3),1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+llm,B2 TTL memory (90d),1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+llm,B2 naive persistent memory,1658432,test,current,revised,primary,2,2,2,2,0,0,0,0,2
+ledger,B1c time-filtered RAG + NR gate (claim release),1818212,test,current,stable,primary,48,48,48,48,0,0,0,0,48
+ledger,B3 FinMemGuard-rule (claim release),1818212,test,current,stable,primary,48,48,48,48,0,0,0,0,30
+ledger,B3* tuned heuristic,1818212,test,current,stable,primary,48,48,48,48,0,0,0,0,30
+ledger,B4 learned (lam=3),1818212,test,current,stable,primary,48,48,48,48,0,0,0,0,25
+ledger,B2 TTL memory (90d),1818212,test,current,stable,primary,48,48,48,48,0,0,0,0,27
+ledger,B2 naive persistent memory,1818212,test,current,stable,primary,48,48,48,48,0,0,0,0,18
+ledger,B1c time-filtered RAG + NR gate (claim release),1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+ledger,B3 FinMemGuard-rule (claim release),1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+ledger,B3* tuned heuristic,1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+ledger,B4 learned (lam=3),1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+ledger,B2 TTL memory (90d),1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+ledger,B2 naive persistent memory,1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+ledger,B1c time-filtered RAG + NR gate (claim release),1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,17
+ledger,B3 FinMemGuard-rule (claim release),1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,16
+ledger,B3* tuned heuristic,1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,16
+ledger,B4 learned (lam=3),1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,9
+ledger,B2 TTL memory (90d),1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,17
+ledger,B2 naive persistent memory,1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,17
+ledger,B1c time-filtered RAG + NR gate (claim release),1818212,test,current,revised,primary,13,13,13,13,0,0,0,0,13
+ledger,B3 FinMemGuard-rule (claim release),1818212,test,current,revised,primary,13,13,13,13,0,0,0,0,11
+ledger,B3* tuned heuristic,1818212,test,current,revised,primary,13,13,13,13,0,0,0,0,11
+ledger,B4 learned (lam=3),1818212,test,current,revised,primary,13,13,13,13,0,0,0,0,9
+ledger,B2 TTL memory (90d),1818212,test,current,revised,primary,13,13,11,11,0,2,0,0,8
+ledger,B2 naive persistent memory,1818212,test,current,revised,primary,13,13,2,2,0,11,0,0,1
+ledger,B1c time-filtered RAG + NR gate (claim release),1818212,test,current,nr_gap,primary,2,0,0,0,2,0,0,0,2
+ledger,B3 FinMemGuard-rule (claim release),1818212,test,current,nr_gap,primary,2,0,0,0,2,0,0,0,1
+ledger,B3* tuned heuristic,1818212,test,current,nr_gap,primary,2,0,0,0,2,0,0,0,1
+ledger,B4 learned (lam=3),1818212,test,current,nr_gap,primary,2,0,0,0,2,0,0,0,1
+ledger,B2 TTL memory (90d),1818212,test,current,nr_gap,primary,2,2,0,0,0,0,0,2,0
+ledger,B2 naive persistent memory,1818212,test,current,nr_gap,primary,2,2,0,0,0,0,0,2,0
+ledger,B1c time-filtered RAG + NR gate (claim release),1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,13
+ledger,B3 FinMemGuard-rule (claim release),1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,5
+ledger,B3* tuned heuristic,1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,1
+ledger,B4 learned (lam=3),1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,1
+ledger,B2 TTL memory (90d),1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,4
+ledger,B2 naive persistent memory,1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,1
+ledger,B1c time-filtered RAG + NR gate (claim release),1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,2
+ledger,B3 FinMemGuard-rule (claim release),1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,2
+ledger,B3* tuned heuristic,1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,2
+ledger,B4 learned (lam=3),1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,2
+ledger,B2 TTL memory (90d),1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,2
+ledger,B2 naive persistent memory,1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,1
+ledger,B1c time-filtered RAG + NR gate (claim release),1818212,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+ledger,B3 FinMemGuard-rule (claim release),1818212,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+ledger,B3* tuned heuristic,1818212,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+ledger,B4 learned (lam=3),1818212,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+ledger,B2 TTL memory (90d),1818212,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+ledger,B2 naive persistent memory,1818212,test,historical,undisclosed,primary,1,1,0,0,0,0,1,0,0
+llm,B1c time-filtered RAG + NR gate (claim release),1818212,test,current,stable,primary,48,46,26,26,0,20,0,0,48
+llm,B3 FinMemGuard-rule (claim release),1818212,test,current,stable,primary,48,46,26,26,0,20,0,0,31
+llm,B3* tuned heuristic,1818212,test,current,stable,primary,48,46,26,26,0,20,0,0,31
+llm,B4 learned (lam=3),1818212,test,current,stable,primary,48,46,26,26,0,20,0,0,27
+llm,B2 TTL memory (90d),1818212,test,current,stable,primary,48,46,26,26,0,20,0,0,28
+llm,B2 naive persistent memory,1818212,test,current,stable,primary,48,46,26,26,0,20,0,0,19
+llm,B1c time-filtered RAG + NR gate (claim release),1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+llm,B3 FinMemGuard-rule (claim release),1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+llm,B3* tuned heuristic,1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+llm,B4 learned (lam=3),1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+llm,B2 TTL memory (90d),1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+llm,B2 naive persistent memory,1818212,test,latest_annual,undisclosed,primary,16,0,0,0,16,0,0,0,16
+llm,B1c time-filtered RAG + NR gate (claim release),1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,17
+llm,B3 FinMemGuard-rule (claim release),1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,16
+llm,B3* tuned heuristic,1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,16
+llm,B4 learned (lam=3),1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,11
+llm,B2 TTL memory (90d),1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,17
+llm,B2 naive persistent memory,1818212,test,current,undisclosed,primary,17,0,0,0,17,0,0,0,17
+llm,B1c time-filtered RAG + NR gate (claim release),1818212,test,current,revised,primary,13,7,3,3,0,4,0,0,13
+llm,B3 FinMemGuard-rule (claim release),1818212,test,current,revised,primary,13,7,3,3,0,4,0,0,11
+llm,B3* tuned heuristic,1818212,test,current,revised,primary,13,7,3,3,0,4,0,0,11
+llm,B4 learned (lam=3),1818212,test,current,revised,primary,13,7,3,3,0,4,0,0,10
+llm,B2 TTL memory (90d),1818212,test,current,revised,primary,13,7,1,1,0,6,0,0,11
+llm,B2 naive persistent memory,1818212,test,current,revised,primary,13,13,0,0,0,13,0,0,1
+llm,B1c time-filtered RAG + NR gate (claim release),1818212,test,current,nr_gap,primary,2,0,0,0,2,0,0,0,2
+llm,B3 FinMemGuard-rule (claim release),1818212,test,current,nr_gap,primary,2,0,0,0,2,0,0,0,1
+llm,B3* tuned heuristic,1818212,test,current,nr_gap,primary,2,0,0,0,2,0,0,0,1
+llm,B4 learned (lam=3),1818212,test,current,nr_gap,primary,2,0,0,0,2,0,0,0,1
+llm,B2 TTL memory (90d),1818212,test,current,nr_gap,primary,2,2,0,0,0,0,0,2,0
+llm,B2 naive persistent memory,1818212,test,current,nr_gap,primary,2,2,0,0,0,0,0,2,0
+llm,B1c time-filtered RAG + NR gate (claim release),1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,13
+llm,B3 FinMemGuard-rule (claim release),1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,5
+llm,B3* tuned heuristic,1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,1
+llm,B4 learned (lam=3),1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,4
+llm,B2 TTL memory (90d),1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,4
+llm,B2 naive persistent memory,1818212,test,latest_annual,stable,primary,13,13,13,13,0,0,0,0,1
+llm,B1c time-filtered RAG + NR gate (claim release),1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,2
+llm,B3 FinMemGuard-rule (claim release),1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,2
+llm,B3* tuned heuristic,1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,2
+llm,B4 learned (lam=3),1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,2
+llm,B2 TTL memory (90d),1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,2
+llm,B2 naive persistent memory,1818212,test,historical,stable,primary,2,2,2,2,0,0,0,0,1
+llm,B1c time-filtered RAG + NR gate (claim release),1818212,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+llm,B3 FinMemGuard-rule (claim release),1818212,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+llm,B3* tuned heuristic,1818212,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+llm,B4 learned (lam=3),1818212,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+llm,B2 TTL memory (90d),1818212,test,historical,undisclosed,primary,1,0,0,0,1,0,0,0,1
+llm,B2 naive persistent memory,1818212,test,historical,undisclosed,primary,1,1,0,0,0,0,1,0,0

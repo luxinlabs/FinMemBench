@@ -1,0 +1,13 @@
+env,policy,queries,coverage,supported_acc,wrong,withdrawn,calls,est_llm_tokens_per_refresh
+ledger,B1c time-filtered RAG + NR gate (claim release),560,0.8375,1.0,0,0,560,942
+ledger,B2 TTL memory (90d),560,0.8410714285714286,0.9639065817409767,17,2,411,942
+ledger,B2 naive persistent memory,560,0.8571428571428571,0.73125,127,2,249,942
+ledger,B3 FinMemGuard-rule (claim release),560,0.8375,1.0,0,0,451,942
+ledger,B3* tuned heuristic,560,0.8375,0.9936034115138592,3,0,396,942
+ledger,B4 learned (lam=3),560,0.8375,1.0,0,0,352,942
+llm,B1c time-filtered RAG + NR gate (claim release),560,0.6892857142857143,0.4792746113989637,201,0,560,942
+llm,B2 TTL memory (90d),560,0.6982142857142857,0.4578005115089514,212,2,433,942
+llm,B2 naive persistent memory,560,0.7517857142857143,0.37054631828978624,265,2,276,942
+llm,B3 FinMemGuard-rule (claim release),560,0.6892857142857143,0.4792746113989637,201,0,464,942
+llm,B3* tuned heuristic,560,0.7035714285714286,0.4796954314720812,205,0,406,942
+llm,B4 learned (lam=3),560,0.6982142857142857,0.4833759590792839,202,0,396,942

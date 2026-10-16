@@ -1,0 +1,649 @@
+split,mode,policy,stratum,n,answered,supported,correct_abstain,wrong,calls
+test,permissive,B0 snapshot RAG,nr_gap,607,607,0,0,607,607
+test,permissive,B0 snapshot RAG,revised,7515,7515,4380,0,1292,7515
+test,permissive,B0 snapshot RAG,stable,236770,236770,115171,0,55818,236770
+test,permissive,B0 snapshot RAG,undisclosed,37322,37322,0,0,37322,37322
+test,permissive,B1 time-filtered RAG,nr_gap,607,607,0,0,607,607
+test,permissive,B1 time-filtered RAG,revised,7515,7515,7515,0,0,7515
+test,permissive,B1 time-filtered RAG,stable,236770,236770,236770,0,0,236770
+test,permissive,B1 time-filtered RAG,undisclosed,37322,0,0,37322,0,37322
+test,permissive,B1c time-filtered RAG + NR gate (claim release),nr_gap,607,0,0,607,0,607
+test,permissive,B1c time-filtered RAG + NR gate (claim release),revised,7515,7406,7406,0,0,7515
+test,permissive,B1c time-filtered RAG + NR gate (claim release),stable,236770,234074,234074,0,0,236770
+test,permissive,B1c time-filtered RAG + NR gate (claim release),undisclosed,37322,0,0,37322,0,37322
+test,permissive,B1g time-filtered RAG + NR gate (rule release),nr_gap,607,76,0,531,76,607
+test,permissive,B1g time-filtered RAG + NR gate (rule release),revised,7515,7306,7306,0,0,7515
+test,permissive,B1g time-filtered RAG + NR gate (rule release),stable,236770,235510,235510,0,0,236770
+test,permissive,B1g time-filtered RAG + NR gate (rule release),undisclosed,37322,0,0,37322,0,37322
+test,permissive,B2 TTL memory (365d),nr_gap,607,607,0,0,607,188
+test,permissive,B2 TTL memory (365d),revised,7515,7515,5138,0,2305,3384
+test,permissive,B2 TTL memory (365d),stable,236770,236770,217234,0,19177,110026
+test,permissive,B2 TTL memory (365d),undisclosed,37322,0,0,37322,0,37322
+test,permissive,B2 TTL memory (90d),nr_gap,607,607,0,0,607,376
+test,permissive,B2 TTL memory (90d),revised,7515,7515,7054,0,460,5460
+test,permissive,B2 TTL memory (90d),stable,236770,236770,231948,0,4728,161254
+test,permissive,B2 TTL memory (90d),undisclosed,37322,0,0,37322,0,37322
+test,permissive,B2 naive persistent memory,nr_gap,607,607,0,0,607,115
+test,permissive,B2 naive persistent memory,revised,7515,7515,3147,0,4181,1791
+test,permissive,B2 naive persistent memory,stable,236770,236770,187236,0,45827,76659
+test,permissive,B2 naive persistent memory,undisclosed,37322,2959,0,34363,2959,35451
+test,permissive,B3 - NR gate,nr_gap,607,607,0,0,607,293
+test,permissive,B3 - NR gate,revised,7515,7515,7511,0,4,6321
+test,permissive,B3 - NR gate,stable,236770,236770,236649,0,121,184633
+test,permissive,B3 - NR gate,undisclosed,37322,0,0,37322,0,37322
+test,permissive,B3 - invalidation,nr_gap,607,0,0,607,0,160
+test,permissive,B3 - invalidation,revised,7515,7406,4655,0,2619,2789
+test,permissive,B3 - invalidation,stable,236770,234074,233947,0,127,98513
+test,permissive,B3 - invalidation,undisclosed,37322,0,0,37322,0,37146
+test,permissive,B3 FinMemGuard-rule (claim release),nr_gap,607,0,0,607,0,160
+test,permissive,B3 FinMemGuard-rule (claim release),revised,7515,7406,7402,0,4,6303
+test,permissive,B3 FinMemGuard-rule (claim release),stable,236770,234074,233953,0,121,184522
+test,permissive,B3 FinMemGuard-rule (claim release),undisclosed,37322,0,0,37322,0,37146
+test,permissive,B3* tuned heuristic,nr_gap,607,0,0,607,0,160
+test,permissive,B3* tuned heuristic,revised,7515,7406,7168,0,238,5840
+test,permissive,B3* tuned heuristic,stable,236770,234074,234021,0,53,160063
+test,permissive,B3* tuned heuristic,undisclosed,37322,0,0,37322,0,37146
+test,permissive,B3f form-aware invalidation,nr_gap,607,0,0,607,0,160
+test,permissive,B3f form-aware invalidation,revised,7515,7406,7166,0,240,5837
+test,permissive,B3f form-aware invalidation,stable,236770,234074,233947,0,127,159697
+test,permissive,B3f form-aware invalidation,undisclosed,37322,0,0,37322,0,37146
+test,permissive,B3r FinMemGuard-rule (rule release),nr_gap,607,76,0,531,76,81
+test,permissive,B3r FinMemGuard-rule (rule release),revised,7515,7306,7302,0,4,6193
+test,permissive,B3r FinMemGuard-rule (rule release),stable,236770,235509,235388,0,121,183996
+test,permissive,B3r FinMemGuard-rule (rule release),undisclosed,37322,0,0,37322,0,37125
+test,permissive,B4 learned (lam=0.25),nr_gap,607,0,0,607,0,157
+test,permissive,B4 learned (lam=0.25),revised,7515,7404,6558,0,831,4529
+test,permissive,B4 learned (lam=0.25),stable,236770,233759,233714,0,45,120385
+test,permissive,B4 learned (lam=0.25),undisclosed,37322,0,0,37322,0,27207
+test,permissive,B4 learned (lam=0.5),nr_gap,607,0,0,607,0,157
+test,permissive,B4 learned (lam=0.5),revised,7515,7404,6583,0,805,4581
+test,permissive,B4 learned (lam=0.5),stable,236770,233752,233709,0,43,121351
+test,permissive,B4 learned (lam=0.5),undisclosed,37322,0,0,37322,0,27168
+test,permissive,B4 learned (lam=1),nr_gap,607,0,0,607,0,155
+test,permissive,B4 learned (lam=1),revised,7515,7399,6699,0,687,4739
+test,permissive,B4 learned (lam=1),stable,236770,233756,233713,0,43,124912
+test,permissive,B4 learned (lam=1),undisclosed,37322,0,0,37322,0,26943
+test,permissive,B4 learned (lam=10),nr_gap,607,0,0,607,0,151
+test,permissive,B4 learned (lam=10),revised,7515,7401,7103,0,297,5354
+test,permissive,B4 learned (lam=10),stable,236770,233480,233437,0,43,149098
+test,permissive,B4 learned (lam=10),undisclosed,37322,0,0,37322,0,26348
+test,permissive,B4 learned (lam=2),nr_gap,607,0,0,607,0,151
+test,permissive,B4 learned (lam=2),revised,7515,7400,6883,0,512,4938
+test,permissive,B4 learned (lam=2),stable,236770,233709,233666,0,43,131146
+test,permissive,B4 learned (lam=2),undisclosed,37322,0,0,37322,0,26713
+test,permissive,B4 learned (lam=20),nr_gap,607,0,0,607,0,151
+test,permissive,B4 learned (lam=20),revised,7515,7402,7139,0,262,5410
+test,permissive,B4 learned (lam=20),stable,236770,233413,233375,0,38,152244
+test,permissive,B4 learned (lam=20),undisclosed,37322,0,0,37322,0,26267
+test,permissive,B4 learned (lam=3),nr_gap,607,0,0,607,0,151
+test,permissive,B4 learned (lam=3),revised,7515,7400,6925,0,471,5060
+test,permissive,B4 learned (lam=3),stable,236770,233680,233637,0,43,133673
+test,permissive,B4 learned (lam=3),undisclosed,37322,0,0,37322,0,26609
+test,permissive,B4 learned (lam=5),nr_gap,607,0,0,607,0,151
+test,permissive,B4 learned (lam=5),revised,7515,7401,6974,0,426,5127
+test,permissive,B4 learned (lam=5),stable,236770,233648,233605,0,43,135676
+test,permissive,B4 learned (lam=5),undisclosed,37322,0,0,37322,0,26589
+test,permissive,B4 learned [seed 1] (lam=20),nr_gap,607,0,0,607,0,154
+test,permissive,B4 learned [seed 1] (lam=20),revised,7515,7394,7180,0,212,5388
+test,permissive,B4 learned [seed 1] (lam=20),stable,236770,233345,233312,0,33,154911
+test,permissive,B4 learned [seed 1] (lam=20),undisclosed,37322,0,0,37322,0,26614
+test,permissive,B4 learned [seed 1] (lam=3),nr_gap,607,0,0,607,0,154
+test,permissive,B4 learned [seed 1] (lam=3),revised,7515,7399,6933,0,463,5014
+test,permissive,B4 learned [seed 1] (lam=3),stable,236770,233623,233588,0,35,134892
+test,permissive,B4 learned [seed 1] (lam=3),undisclosed,37322,0,0,37322,0,26661
+test,permissive,B4 learned [seed 2] (lam=20),nr_gap,607,0,0,607,0,155
+test,permissive,B4 learned [seed 2] (lam=20),revised,7515,7391,7108,0,279,5304
+test,permissive,B4 learned [seed 2] (lam=20),stable,236770,233081,233005,0,76,149144
+test,permissive,B4 learned [seed 2] (lam=20),undisclosed,37322,0,0,37322,0,26157
+test,permissive,B4 learned [seed 2] (lam=3),nr_gap,607,0,0,607,0,155
+test,permissive,B4 learned [seed 2] (lam=3),revised,7515,7396,6919,0,474,4991
+test,permissive,B4 learned [seed 2] (lam=3),stable,236770,233418,233337,0,81,133072
+test,permissive,B4 learned [seed 2] (lam=3),undisclosed,37322,0,0,37322,0,26310
+test,permissive,B4-sup round-0 only (lam=20),nr_gap,607,0,0,607,0,160
+test,permissive,B4-sup round-0 only (lam=20),revised,7515,7391,7084,0,299,5440
+test,permissive,B4-sup round-0 only (lam=20),stable,236770,232295,232265,0,30,151295
+test,permissive,B4-sup round-0 only (lam=20),undisclosed,37322,0,0,37322,0,25239
+test,permissive,B4-sup round-0 only (lam=3),nr_gap,607,0,0,607,0,160
+test,permissive,B4-sup round-0 only (lam=3),revised,7515,7398,6913,0,477,5155
+test,permissive,B4-sup round-0 only (lam=3),stable,236770,233133,233106,0,27,136553
+test,permissive,B4-sup round-0 only (lam=3),undisclosed,37322,0,0,37322,0,25600
+test,primary,B0 snapshot RAG,nr_gap,607,607,0,0,607,607
+test,primary,B0 snapshot RAG,revised,7429,7429,4340,0,1280,7429
+test,primary,B0 snapshot RAG,stable,234491,234491,113519,0,55559,234491
+test,primary,B0 snapshot RAG,undisclosed,37322,37322,0,0,37322,37322
+test,primary,B1 time-filtered RAG,nr_gap,607,607,0,0,607,607
+test,primary,B1 time-filtered RAG,revised,7429,7429,7429,0,0,7429
+test,primary,B1 time-filtered RAG,stable,234491,234491,234491,0,0,234491
+test,primary,B1 time-filtered RAG,undisclosed,37322,0,0,37322,0,37322
+test,primary,B1c time-filtered RAG + NR gate (claim release),nr_gap,607,0,0,607,0,607
+test,primary,B1c time-filtered RAG + NR gate (claim release),revised,7429,7406,7406,0,0,7429
+test,primary,B1c time-filtered RAG + NR gate (claim release),stable,234491,234074,234074,0,0,234491
+test,primary,B1c time-filtered RAG + NR gate (claim release),undisclosed,37322,0,0,37322,0,37322
+test,primary,B1g time-filtered RAG + NR gate (rule release),nr_gap,607,76,0,531,76,607
+test,primary,B1g time-filtered RAG + NR gate (rule release),revised,7429,7275,7275,0,0,7429
+test,primary,B1g time-filtered RAG + NR gate (rule release),stable,234491,234040,234040,0,0,234491
+test,primary,B1g time-filtered RAG + NR gate (rule release),undisclosed,37322,0,0,37322,0,37322
+test,primary,B2 TTL memory (365d),nr_gap,607,607,0,0,607,188
+test,primary,B2 TTL memory (365d),revised,7429,7429,5085,0,2272,3348
+test,primary,B2 TTL memory (365d),stable,234491,234491,214997,0,19140,109138
+test,primary,B2 TTL memory (365d),undisclosed,37322,0,0,37322,0,37322
+test,primary,B2 TTL memory (90d),nr_gap,607,607,0,0,607,376
+test,primary,B2 TTL memory (90d),revised,7429,7429,6976,0,452,5400
+test,primary,B2 TTL memory (90d),stable,234491,234491,229674,0,4724,159661
+test,primary,B2 TTL memory (90d),undisclosed,37322,0,0,37322,0,37322
+test,primary,B2 naive persistent memory,nr_gap,607,607,0,0,607,115
+test,primary,B2 naive persistent memory,revised,7429,7429,3112,0,4130,1773
+test,primary,B2 naive persistent memory,stable,234491,234491,185152,0,45658,76160
+test,primary,B2 naive persistent memory,undisclosed,37322,2959,0,34363,2959,35451
+test,primary,B3 - NR gate,nr_gap,607,607,0,0,607,293
+test,primary,B3 - NR gate,revised,7429,7429,7425,0,4,6252
+test,primary,B3 - NR gate,stable,234491,234491,234370,0,121,182860
+test,primary,B3 - NR gate,undisclosed,37322,0,0,37322,0,37322
+test,primary,B3 - invalidation,nr_gap,607,0,0,607,0,160
+test,primary,B3 - invalidation,revised,7429,7406,4655,0,2619,2748
+test,primary,B3 - invalidation,stable,234491,234074,233947,0,127,96936
+test,primary,B3 - invalidation,undisclosed,37322,0,0,37322,0,37146
+test,primary,B3 FinMemGuard-rule (claim release),nr_gap,607,0,0,607,0,160
+test,primary,B3 FinMemGuard-rule (claim release),revised,7429,7406,7402,0,4,6262
+test,primary,B3 FinMemGuard-rule (claim release),stable,234491,234074,233953,0,121,182945
+test,primary,B3 FinMemGuard-rule (claim release),undisclosed,37322,0,0,37322,0,37146
+test,primary,B3* tuned heuristic,nr_gap,607,0,0,607,0,160
+test,primary,B3* tuned heuristic,revised,7429,7406,7168,0,238,5799
+test,primary,B3* tuned heuristic,stable,234491,234074,234021,0,53,158486
+test,primary,B3* tuned heuristic,undisclosed,37322,0,0,37322,0,37146
+test,primary,B3f form-aware invalidation,nr_gap,607,0,0,607,0,160
+test,primary,B3f form-aware invalidation,revised,7429,7406,7166,0,240,5796
+test,primary,B3f form-aware invalidation,stable,234491,234074,233947,0,127,158120
+test,primary,B3f form-aware invalidation,undisclosed,37322,0,0,37322,0,37146
+test,primary,B3r FinMemGuard-rule (rule release),nr_gap,607,76,0,531,76,81
+test,primary,B3r FinMemGuard-rule (rule release),revised,7429,7275,7271,0,4,6166
+test,primary,B3r FinMemGuard-rule (rule release),stable,234491,234039,233918,0,121,182700
+test,primary,B3r FinMemGuard-rule (rule release),undisclosed,37322,0,0,37322,0,37125
+test,primary,B4 learned (lam=0.25),nr_gap,607,0,0,607,0,157
+test,primary,B4 learned (lam=0.25),revised,7429,7404,6558,0,831,4488
+test,primary,B4 learned (lam=0.25),stable,234491,233759,233714,0,45,118810
+test,primary,B4 learned (lam=0.25),undisclosed,37322,0,0,37322,0,27207
+test,primary,B4 learned (lam=0.5),nr_gap,607,0,0,607,0,157
+test,primary,B4 learned (lam=0.5),revised,7429,7404,6583,0,805,4540
+test,primary,B4 learned (lam=0.5),stable,234491,233752,233709,0,43,119776
+test,primary,B4 learned (lam=0.5),undisclosed,37322,0,0,37322,0,27168
+test,primary,B4 learned (lam=1),nr_gap,607,0,0,607,0,155
+test,primary,B4 learned (lam=1),revised,7429,7399,6699,0,687,4698
+test,primary,B4 learned (lam=1),stable,234491,233756,233713,0,43,123337
+test,primary,B4 learned (lam=1),undisclosed,37322,0,0,37322,0,26943
+test,primary,B4 learned (lam=10),nr_gap,607,0,0,607,0,151
+test,primary,B4 learned (lam=10),revised,7429,7401,7103,0,297,5313
+test,primary,B4 learned (lam=10),stable,234491,233480,233437,0,43,147530
+test,primary,B4 learned (lam=10),undisclosed,37322,0,0,37322,0,26348
+test,primary,B4 learned (lam=2),nr_gap,607,0,0,607,0,151
+test,primary,B4 learned (lam=2),revised,7429,7400,6883,0,512,4897
+test,primary,B4 learned (lam=2),stable,234491,233709,233666,0,43,129571
+test,primary,B4 learned (lam=2),undisclosed,37322,0,0,37322,0,26713
+test,primary,B4 learned (lam=20),nr_gap,607,0,0,607,0,151
+test,primary,B4 learned (lam=20),revised,7429,7402,7139,0,262,5369
+test,primary,B4 learned (lam=20),stable,234491,233413,233375,0,38,150676
+test,primary,B4 learned (lam=20),undisclosed,37322,0,0,37322,0,26267
+test,primary,B4 learned (lam=3),nr_gap,607,0,0,607,0,151
+test,primary,B4 learned (lam=3),revised,7429,7400,6925,0,471,5019
+test,primary,B4 learned (lam=3),stable,234491,233680,233637,0,43,132098
+test,primary,B4 learned (lam=3),undisclosed,37322,0,0,37322,0,26609
+test,primary,B4 learned (lam=5),nr_gap,607,0,0,607,0,151
+test,primary,B4 learned (lam=5),revised,7429,7401,6974,0,426,5086
+test,primary,B4 learned (lam=5),stable,234491,233648,233605,0,43,134101
+test,primary,B4 learned (lam=5),undisclosed,37322,0,0,37322,0,26589
+test,primary,B4 learned [seed 1] (lam=20),nr_gap,607,0,0,607,0,154
+test,primary,B4 learned [seed 1] (lam=20),revised,7429,7394,7180,0,212,5347
+test,primary,B4 learned [seed 1] (lam=20),stable,234491,233345,233312,0,33,153341
+test,primary,B4 learned [seed 1] (lam=20),undisclosed,37322,0,0,37322,0,26614
+test,primary,B4 learned [seed 1] (lam=3),nr_gap,607,0,0,607,0,154
+test,primary,B4 learned [seed 1] (lam=3),revised,7429,7399,6933,0,463,4973
+test,primary,B4 learned [seed 1] (lam=3),stable,234491,233623,233588,0,35,133319
+test,primary,B4 learned [seed 1] (lam=3),undisclosed,37322,0,0,37322,0,26661
+test,primary,B4 learned [seed 2] (lam=20),nr_gap,607,0,0,607,0,155
+test,primary,B4 learned [seed 2] (lam=20),revised,7429,7391,7108,0,279,5261
+test,primary,B4 learned [seed 2] (lam=20),stable,234491,233081,233005,0,76,147573
+test,primary,B4 learned [seed 2] (lam=20),undisclosed,37322,0,0,37322,0,26157
+test,primary,B4 learned [seed 2] (lam=3),nr_gap,607,0,0,607,0,155
+test,primary,B4 learned [seed 2] (lam=3),revised,7429,7396,6919,0,474,4948
+test,primary,B4 learned [seed 2] (lam=3),stable,234491,233418,233337,0,81,131502
+test,primary,B4 learned [seed 2] (lam=3),undisclosed,37322,0,0,37322,0,26310
+test,primary,B4-sup round-0 only (lam=20),nr_gap,607,0,0,607,0,160
+test,primary,B4-sup round-0 only (lam=20),revised,7429,7391,7084,0,299,5399
+test,primary,B4-sup round-0 only (lam=20),stable,234491,232295,232265,0,30,149721
+test,primary,B4-sup round-0 only (lam=20),undisclosed,37322,0,0,37322,0,25239
+test,primary,B4-sup round-0 only (lam=3),nr_gap,607,0,0,607,0,160
+test,primary,B4-sup round-0 only (lam=3),revised,7429,7398,6913,0,477,5114
+test,primary,B4-sup round-0 only (lam=3),stable,234491,233133,233106,0,27,134979
+test,primary,B4-sup round-0 only (lam=3),undisclosed,37322,0,0,37322,0,25600
+test,strict,B0 snapshot RAG,nr_gap,2972,2972,0,0,2972,2972
+test,strict,B0 snapshot RAG,revised,7429,7429,4340,0,1280,7429
+test,strict,B0 snapshot RAG,stable,234491,234491,113519,0,55559,234491
+test,strict,B0 snapshot RAG,undisclosed,37322,37322,0,0,37322,37322
+test,strict,B1 time-filtered RAG,nr_gap,2972,2972,0,0,2972,2972
+test,strict,B1 time-filtered RAG,revised,7429,7429,7429,0,0,7429
+test,strict,B1 time-filtered RAG,stable,234491,234491,234491,0,0,234491
+test,strict,B1 time-filtered RAG,undisclosed,37322,0,0,37322,0,37322
+test,strict,B1c time-filtered RAG + NR gate (claim release),nr_gap,2972,0,0,2972,0,2972
+test,strict,B1c time-filtered RAG + NR gate (claim release),revised,7429,7406,7406,0,0,7429
+test,strict,B1c time-filtered RAG + NR gate (claim release),stable,234491,234074,234074,0,0,234491
+test,strict,B1c time-filtered RAG + NR gate (claim release),undisclosed,37322,0,0,37322,0,37322
+test,strict,B1g time-filtered RAG + NR gate (rule release),nr_gap,2972,1577,0,1395,1577,2972
+test,strict,B1g time-filtered RAG + NR gate (rule release),revised,7429,7275,7275,0,0,7429
+test,strict,B1g time-filtered RAG + NR gate (rule release),stable,234491,234040,234040,0,0,234491
+test,strict,B1g time-filtered RAG + NR gate (rule release),undisclosed,37322,0,0,37322,0,37322
+test,strict,B2 TTL memory (365d),nr_gap,2972,2972,0,0,2972,1112
+test,strict,B2 TTL memory (365d),revised,7429,7429,5085,0,2272,3348
+test,strict,B2 TTL memory (365d),stable,234491,234491,214997,0,19140,109138
+test,strict,B2 TTL memory (365d),undisclosed,37322,0,0,37322,0,37322
+test,strict,B2 TTL memory (90d),nr_gap,2972,2972,0,0,2972,2029
+test,strict,B2 TTL memory (90d),revised,7429,7429,6976,0,452,5400
+test,strict,B2 TTL memory (90d),stable,234491,234491,229674,0,4724,159661
+test,strict,B2 TTL memory (90d),undisclosed,37322,0,0,37322,0,37322
+test,strict,B2 naive persistent memory,nr_gap,2972,2972,0,0,2972,632
+test,strict,B2 naive persistent memory,revised,7429,7429,3112,0,4130,1773
+test,strict,B2 naive persistent memory,stable,234491,234491,185152,0,45658,76160
+test,strict,B2 naive persistent memory,undisclosed,37322,2959,0,34363,2959,35451
+test,strict,B3 - NR gate,nr_gap,2972,2972,0,0,2972,2135
+test,strict,B3 - NR gate,revised,7429,7429,7425,0,4,6252
+test,strict,B3 - NR gate,stable,234491,234491,234370,0,121,182860
+test,strict,B3 - NR gate,undisclosed,37322,0,0,37322,0,37322
+test,strict,B3 - invalidation,nr_gap,2972,0,0,2972,0,1778
+test,strict,B3 - invalidation,revised,7429,7406,4655,0,2619,2748
+test,strict,B3 - invalidation,stable,234491,234074,233947,0,127,96936
+test,strict,B3 - invalidation,undisclosed,37322,0,0,37322,0,37146
+test,strict,B3 FinMemGuard-rule (claim release),nr_gap,2972,0,0,2972,0,1778
+test,strict,B3 FinMemGuard-rule (claim release),revised,7429,7406,7402,0,4,6262
+test,strict,B3 FinMemGuard-rule (claim release),stable,234491,234074,233953,0,121,182945
+test,strict,B3 FinMemGuard-rule (claim release),undisclosed,37322,0,0,37322,0,37146
+test,strict,B3* tuned heuristic,nr_gap,2972,0,0,2972,0,1778
+test,strict,B3* tuned heuristic,revised,7429,7406,7168,0,238,5799
+test,strict,B3* tuned heuristic,stable,234491,234074,234021,0,53,158486
+test,strict,B3* tuned heuristic,undisclosed,37322,0,0,37322,0,37146
+test,strict,B3f form-aware invalidation,nr_gap,2972,0,0,2972,0,1778
+test,strict,B3f form-aware invalidation,revised,7429,7406,7166,0,240,5796
+test,strict,B3f form-aware invalidation,stable,234491,234074,233947,0,127,158120
+test,strict,B3f form-aware invalidation,undisclosed,37322,0,0,37322,0,37146
+test,strict,B3r FinMemGuard-rule (rule release),nr_gap,2972,1577,0,1395,1577,1404
+test,strict,B3r FinMemGuard-rule (rule release),revised,7429,7275,7271,0,4,6166
+test,strict,B3r FinMemGuard-rule (rule release),stable,234491,234039,233918,0,121,182700
+test,strict,B3r FinMemGuard-rule (rule release),undisclosed,37322,0,0,37322,0,37125
+test,strict,B4 learned (lam=0.25),nr_gap,2972,0,0,2972,0,1773
+test,strict,B4 learned (lam=0.25),revised,7429,7404,6558,0,831,4488
+test,strict,B4 learned (lam=0.25),stable,234491,233759,233714,0,45,118810
+test,strict,B4 learned (lam=0.25),undisclosed,37322,0,0,37322,0,27207
+test,strict,B4 learned (lam=0.5),nr_gap,2972,0,0,2972,0,1773
+test,strict,B4 learned (lam=0.5),revised,7429,7404,6583,0,805,4540
+test,strict,B4 learned (lam=0.5),stable,234491,233752,233709,0,43,119776
+test,strict,B4 learned (lam=0.5),undisclosed,37322,0,0,37322,0,27168
+test,strict,B4 learned (lam=1),nr_gap,2972,0,0,2972,0,1771
+test,strict,B4 learned (lam=1),revised,7429,7399,6699,0,687,4698
+test,strict,B4 learned (lam=1),stable,234491,233756,233713,0,43,123337
+test,strict,B4 learned (lam=1),undisclosed,37322,0,0,37322,0,26943
+test,strict,B4 learned (lam=10),nr_gap,2972,0,0,2972,0,1760
+test,strict,B4 learned (lam=10),revised,7429,7401,7103,0,297,5313
+test,strict,B4 learned (lam=10),stable,234491,233480,233437,0,43,147530
+test,strict,B4 learned (lam=10),undisclosed,37322,0,0,37322,0,26348
+test,strict,B4 learned (lam=2),nr_gap,2972,0,0,2972,0,1767
+test,strict,B4 learned (lam=2),revised,7429,7400,6883,0,512,4897
+test,strict,B4 learned (lam=2),stable,234491,233709,233666,0,43,129571
+test,strict,B4 learned (lam=2),undisclosed,37322,0,0,37322,0,26713
+test,strict,B4 learned (lam=20),nr_gap,2972,0,0,2972,0,1760
+test,strict,B4 learned (lam=20),revised,7429,7402,7139,0,262,5369
+test,strict,B4 learned (lam=20),stable,234491,233413,233375,0,38,150676
+test,strict,B4 learned (lam=20),undisclosed,37322,0,0,37322,0,26267
+test,strict,B4 learned (lam=3),nr_gap,2972,0,0,2972,0,1767
+test,strict,B4 learned (lam=3),revised,7429,7400,6925,0,471,5019
+test,strict,B4 learned (lam=3),stable,234491,233680,233637,0,43,132098
+test,strict,B4 learned (lam=3),undisclosed,37322,0,0,37322,0,26609
+test,strict,B4 learned (lam=5),nr_gap,2972,0,0,2972,0,1767
+test,strict,B4 learned (lam=5),revised,7429,7401,6974,0,426,5086
+test,strict,B4 learned (lam=5),stable,234491,233648,233605,0,43,134101
+test,strict,B4 learned (lam=5),undisclosed,37322,0,0,37322,0,26589
+test,strict,B4 learned [seed 1] (lam=20),nr_gap,2972,0,0,2972,0,1765
+test,strict,B4 learned [seed 1] (lam=20),revised,7429,7394,7180,0,212,5347
+test,strict,B4 learned [seed 1] (lam=20),stable,234491,233345,233312,0,33,153341
+test,strict,B4 learned [seed 1] (lam=20),undisclosed,37322,0,0,37322,0,26614
+test,strict,B4 learned [seed 1] (lam=3),nr_gap,2972,0,0,2972,0,1768
+test,strict,B4 learned [seed 1] (lam=3),revised,7429,7399,6933,0,463,4973
+test,strict,B4 learned [seed 1] (lam=3),stable,234491,233623,233588,0,35,133319
+test,strict,B4 learned [seed 1] (lam=3),undisclosed,37322,0,0,37322,0,26661
+test,strict,B4 learned [seed 2] (lam=20),nr_gap,2972,0,0,2972,0,1769
+test,strict,B4 learned [seed 2] (lam=20),revised,7429,7391,7108,0,279,5261
+test,strict,B4 learned [seed 2] (lam=20),stable,234491,233081,233005,0,76,147573
+test,strict,B4 learned [seed 2] (lam=20),undisclosed,37322,0,0,37322,0,26157
+test,strict,B4 learned [seed 2] (lam=3),nr_gap,2972,0,0,2972,0,1768
+test,strict,B4 learned [seed 2] (lam=3),revised,7429,7396,6919,0,474,4948
+test,strict,B4 learned [seed 2] (lam=3),stable,234491,233418,233337,0,81,131502
+test,strict,B4 learned [seed 2] (lam=3),undisclosed,37322,0,0,37322,0,26310
+test,strict,B4-sup round-0 only (lam=20),nr_gap,2972,0,0,2972,0,1775
+test,strict,B4-sup round-0 only (lam=20),revised,7429,7391,7084,0,299,5399
+test,strict,B4-sup round-0 only (lam=20),stable,234491,232295,232265,0,30,149721
+test,strict,B4-sup round-0 only (lam=20),undisclosed,37322,0,0,37322,0,25239
+test,strict,B4-sup round-0 only (lam=3),nr_gap,2972,0,0,2972,0,1775
+test,strict,B4-sup round-0 only (lam=3),revised,7429,7398,6913,0,477,5114
+test,strict,B4-sup round-0 only (lam=3),stable,234491,233133,233106,0,27,134979
+test,strict,B4-sup round-0 only (lam=3),undisclosed,37322,0,0,37322,0,25600
+val,permissive,B0 snapshot RAG,nr_gap,474,474,0,0,474,474
+val,permissive,B0 snapshot RAG,revised,6918,6918,4269,0,918,6918
+val,permissive,B0 snapshot RAG,stable,223536,223536,108292,0,51815,223536
+val,permissive,B0 snapshot RAG,undisclosed,35918,35918,0,0,35918,35918
+val,permissive,B1 time-filtered RAG,nr_gap,474,474,0,0,474,474
+val,permissive,B1 time-filtered RAG,revised,6918,6918,6918,0,0,6918
+val,permissive,B1 time-filtered RAG,stable,223536,223536,223536,0,0,223536
+val,permissive,B1 time-filtered RAG,undisclosed,35918,0,0,35918,0,35918
+val,permissive,B1c time-filtered RAG + NR gate (claim release),nr_gap,474,0,0,474,0,474
+val,permissive,B1c time-filtered RAG + NR gate (claim release),revised,6918,6824,6824,0,0,6918
+val,permissive,B1c time-filtered RAG + NR gate (claim release),stable,223536,221144,221144,0,0,223536
+val,permissive,B1c time-filtered RAG + NR gate (claim release),undisclosed,35918,0,0,35918,0,35918
+val,permissive,B1g time-filtered RAG + NR gate (rule release),nr_gap,474,101,0,373,101,474
+val,permissive,B1g time-filtered RAG + NR gate (rule release),revised,6918,6785,6785,0,0,6918
+val,permissive,B1g time-filtered RAG + NR gate (rule release),stable,223536,222374,222374,0,0,223536
+val,permissive,B1g time-filtered RAG + NR gate (rule release),undisclosed,35918,0,0,35918,0,35918
+val,permissive,B2 TTL memory (365d),nr_gap,474,474,0,0,474,178
+val,permissive,B2 TTL memory (365d),revised,6918,6918,4755,0,2134,3106
+val,permissive,B2 TTL memory (365d),stable,223536,223536,204943,0,18093,103941
+val,permissive,B2 TTL memory (365d),undisclosed,35918,0,0,35918,0,35918
+val,permissive,B2 TTL memory (90d),nr_gap,474,474,0,0,474,303
+val,permissive,B2 TTL memory (90d),revised,6918,6918,6540,0,377,5048
+val,permissive,B2 TTL memory (90d),stable,223536,223536,219271,0,4135,152377
+val,permissive,B2 TTL memory (90d),undisclosed,35918,0,0,35918,0,35918
+val,permissive,B2 naive persistent memory,nr_gap,474,474,0,0,474,106
+val,permissive,B2 naive persistent memory,revised,6918,6918,2888,0,3899,1608
+val,permissive,B2 naive persistent memory,stable,223536,223536,176527,0,43320,72538
+val,permissive,B2 naive persistent memory,undisclosed,35918,2843,0,33075,2843,34169
+val,permissive,B3 - NR gate,nr_gap,474,474,0,0,474,249
+val,permissive,B3 - NR gate,revised,6918,6918,6915,0,3,5864
+val,permissive,B3 - NR gate,stable,223536,223536,223410,0,126,174478
+val,permissive,B3 - NR gate,undisclosed,35918,0,0,35918,0,35918
+val,permissive,B3 - invalidation,nr_gap,474,0,0,474,0,161
+val,permissive,B3 - invalidation,revised,6918,6824,4183,0,2550,2490
+val,permissive,B3 - invalidation,stable,223536,221144,221003,0,136,92912
+val,permissive,B3 - invalidation,undisclosed,35918,0,0,35918,0,35734
+val,permissive,B3 FinMemGuard-rule (claim release),nr_gap,474,0,0,474,0,161
+val,permissive,B3 FinMemGuard-rule (claim release),revised,6918,6824,6821,0,3,5848
+val,permissive,B3 FinMemGuard-rule (claim release),stable,223536,221144,221018,0,126,174335
+val,permissive,B3 FinMemGuard-rule (claim release),undisclosed,35918,0,0,35918,0,35734
+val,permissive,B3* tuned heuristic,nr_gap,474,0,0,474,0,161
+val,permissive,B3* tuned heuristic,revised,6918,6824,6673,0,141,5493
+val,permissive,B3* tuned heuristic,stable,223536,221144,221069,0,70,150915
+val,permissive,B3* tuned heuristic,undisclosed,35918,0,0,35918,0,35734
+val,permissive,B3f form-aware invalidation,nr_gap,474,0,0,474,0,161
+val,permissive,B3f form-aware invalidation,revised,6918,6824,6672,0,142,5488
+val,permissive,B3f form-aware invalidation,stable,223536,221144,221003,0,136,150580
+val,permissive,B3f form-aware invalidation,undisclosed,35918,0,0,35918,0,35734
+val,permissive,B3r FinMemGuard-rule (rule release),nr_gap,474,101,0,373,101,95
+val,permissive,B3r FinMemGuard-rule (rule release),revised,6918,6785,6782,0,3,5775
+val,permissive,B3r FinMemGuard-rule (rule release),stable,223536,222358,222232,0,126,173891
+val,permissive,B3r FinMemGuard-rule (rule release),undisclosed,35918,0,0,35918,0,35704
+val,permissive,B4 learned (lam=0.25),nr_gap,474,0,0,474,0,155
+val,permissive,B4 learned (lam=0.25),revised,6918,6822,6070,0,729,4201
+val,permissive,B4 learned (lam=0.25),stable,223536,220824,220759,0,60,113697
+val,permissive,B4 learned (lam=0.25),undisclosed,35918,0,0,35918,0,26247
+val,permissive,B4 learned (lam=0.5),nr_gap,474,0,0,474,0,155
+val,permissive,B4 learned (lam=0.5),revised,6918,6824,6118,0,682,4245
+val,permissive,B4 learned (lam=0.5),stable,223536,220862,220800,0,57,114705
+val,permissive,B4 learned (lam=0.5),undisclosed,35918,0,0,35918,0,26309
+val,permissive,B4 learned (lam=1),nr_gap,474,0,0,474,0,154
+val,permissive,B4 learned (lam=1),revised,6918,6824,6217,0,587,4415
+val,permissive,B4 learned (lam=1),stable,223536,220788,220726,0,57,117619
+val,permissive,B4 learned (lam=1),undisclosed,35918,0,0,35918,0,26234
+val,permissive,B4 learned (lam=10),nr_gap,474,0,0,474,0,160
+val,permissive,B4 learned (lam=10),revised,6918,6820,6593,0,220,5018
+val,permissive,B4 learned (lam=10),stable,223536,220634,220577,0,52,140683
+val,permissive,B4 learned (lam=10),undisclosed,35918,0,0,35918,0,25561
+val,permissive,B4 learned (lam=2),nr_gap,474,0,0,474,0,154
+val,permissive,B4 learned (lam=2),revised,6918,6824,6395,0,409,4567
+val,permissive,B4 learned (lam=2),stable,223536,220726,220664,0,57,123424
+val,permissive,B4 learned (lam=2),undisclosed,35918,0,0,35918,0,25999
+val,permissive,B4 learned (lam=20),nr_gap,474,0,0,474,0,160
+val,permissive,B4 learned (lam=20),revised,6918,6820,6631,0,185,5072
+val,permissive,B4 learned (lam=20),stable,223536,220532,220473,0,54,143846
+val,permissive,B4 learned (lam=20),undisclosed,35918,0,0,35918,0,25495
+val,permissive,B4 learned (lam=3),nr_gap,474,0,0,474,0,154
+val,permissive,B4 learned (lam=3),revised,6918,6824,6454,0,356,4696
+val,permissive,B4 learned (lam=3),stable,223536,220732,220670,0,57,125722
+val,permissive,B4 learned (lam=3),undisclosed,35918,0,0,35918,0,25989
+val,permissive,B4 learned (lam=5),nr_gap,474,0,0,474,0,154
+val,permissive,B4 learned (lam=5),revised,6918,6823,6489,0,320,4746
+val,permissive,B4 learned (lam=5),stable,223536,220653,220593,0,55,127655
+val,permissive,B4 learned (lam=5),undisclosed,35918,0,0,35918,0,25965
+val,permissive,B4 learned [seed 1] (lam=20),nr_gap,474,0,0,474,0,154
+val,permissive,B4 learned [seed 1] (lam=20),revised,6918,6821,6663,0,154,5034
+val,permissive,B4 learned [seed 1] (lam=20),stable,223536,220525,220481,0,44,146431
+val,permissive,B4 learned [seed 1] (lam=20),undisclosed,35918,0,0,35918,0,25876
+val,permissive,B4 learned [seed 1] (lam=3),nr_gap,474,0,0,474,0,156
+val,permissive,B4 learned [seed 1] (lam=3),revised,6918,6821,6464,0,345,4682
+val,permissive,B4 learned [seed 1] (lam=3),stable,223536,220683,220633,0,49,127159
+val,permissive,B4 learned [seed 1] (lam=3),undisclosed,35918,0,0,35918,0,25797
+val,permissive,B4 learned [seed 2] (lam=20),nr_gap,474,0,0,474,0,157
+val,permissive,B4 learned [seed 2] (lam=20),revised,6918,6823,6606,0,206,4932
+val,permissive,B4 learned [seed 2] (lam=20),stable,223536,220318,220263,0,50,140681
+val,permissive,B4 learned [seed 2] (lam=20),undisclosed,35918,0,0,35918,0,25423
+val,permissive,B4 learned [seed 2] (lam=3),nr_gap,474,0,0,474,0,156
+val,permissive,B4 learned [seed 2] (lam=3),revised,6918,6821,6439,0,370,4624
+val,permissive,B4 learned [seed 2] (lam=3),stable,223536,220523,220469,0,49,125526
+val,permissive,B4 learned [seed 2] (lam=3),undisclosed,35918,0,0,35918,0,25329
+val,permissive,B4-sup round-0 only (lam=20),nr_gap,474,0,0,474,0,153
+val,permissive,B4-sup round-0 only (lam=20),revised,6918,6820,6585,0,234,5064
+val,permissive,B4-sup round-0 only (lam=20),stable,223536,219497,219455,0,41,142764
+val,permissive,B4-sup round-0 only (lam=20),undisclosed,35918,0,0,35918,0,24529
+val,permissive,B4-sup round-0 only (lam=3),nr_gap,474,0,0,474,0,157
+val,permissive,B4-sup round-0 only (lam=3),revised,6918,6815,6389,0,417,4754
+val,permissive,B4-sup round-0 only (lam=3),stable,223536,220111,220005,0,105,128638
+val,permissive,B4-sup round-0 only (lam=3),undisclosed,35918,0,0,35918,0,24681
+val,primary,B0 snapshot RAG,nr_gap,474,474,0,0,474,474
+val,primary,B0 snapshot RAG,revised,6829,6829,4209,0,912,6829
+val,primary,B0 snapshot RAG,stable,221443,221443,106759,0,51556,221443
+val,primary,B0 snapshot RAG,undisclosed,35918,35918,0,0,35918,35918
+val,primary,B1 time-filtered RAG,nr_gap,474,474,0,0,474,474
+val,primary,B1 time-filtered RAG,revised,6829,6829,6829,0,0,6829
+val,primary,B1 time-filtered RAG,stable,221443,221443,221443,0,0,221443
+val,primary,B1 time-filtered RAG,undisclosed,35918,0,0,35918,0,35918
+val,primary,B1c time-filtered RAG + NR gate (claim release),nr_gap,474,0,0,474,0,474
+val,primary,B1c time-filtered RAG + NR gate (claim release),revised,6829,6824,6824,0,0,6829
+val,primary,B1c time-filtered RAG + NR gate (claim release),stable,221443,221144,221144,0,0,221443
+val,primary,B1c time-filtered RAG + NR gate (claim release),undisclosed,35918,0,0,35918,0,35918
+val,primary,B1g time-filtered RAG + NR gate (rule release),nr_gap,474,101,0,373,101,474
+val,primary,B1g time-filtered RAG + NR gate (rule release),revised,6829,6733,6733,0,0,6829
+val,primary,B1g time-filtered RAG + NR gate (rule release),stable,221443,220994,220994,0,0,221443
+val,primary,B1g time-filtered RAG + NR gate (rule release),undisclosed,35918,0,0,35918,0,35918
+val,primary,B2 TTL memory (365d),nr_gap,474,474,0,0,474,178
+val,primary,B2 TTL memory (365d),revised,6829,6829,4710,0,2090,3077
+val,primary,B2 TTL memory (365d),stable,221443,221443,202883,0,18060,103119
+val,primary,B2 TTL memory (365d),undisclosed,35918,0,0,35918,0,35918
+val,primary,B2 TTL memory (90d),nr_gap,474,474,0,0,474,303
+val,primary,B2 TTL memory (90d),revised,6829,6829,6455,0,373,4988
+val,primary,B2 TTL memory (90d),stable,221443,221443,217187,0,4126,150935
+val,primary,B2 TTL memory (90d),undisclosed,35918,0,0,35918,0,35918
+val,primary,B2 naive persistent memory,nr_gap,474,474,0,0,474,106
+val,primary,B2 naive persistent memory,revised,6829,6829,2862,0,3838,1594
+val,primary,B2 naive persistent memory,stable,221443,221443,174641,0,43119,72105
+val,primary,B2 naive persistent memory,undisclosed,35918,2843,0,33075,2843,34169
+val,primary,B3 - NR gate,nr_gap,474,474,0,0,474,249
+val,primary,B3 - NR gate,revised,6829,6829,6826,0,3,5794
+val,primary,B3 - NR gate,stable,221443,221443,221317,0,126,172828
+val,primary,B3 - NR gate,undisclosed,35918,0,0,35918,0,35918
+val,primary,B3 - invalidation,nr_gap,474,0,0,474,0,161
+val,primary,B3 - invalidation,revised,6829,6824,4183,0,2550,2436
+val,primary,B3 - invalidation,stable,221443,221144,221003,0,136,91425
+val,primary,B3 - invalidation,undisclosed,35918,0,0,35918,0,35734
+val,primary,B3 FinMemGuard-rule (claim release),nr_gap,474,0,0,474,0,161
+val,primary,B3 FinMemGuard-rule (claim release),revised,6829,6824,6821,0,3,5794
+val,primary,B3 FinMemGuard-rule (claim release),stable,221443,221144,221018,0,126,172848
+val,primary,B3 FinMemGuard-rule (claim release),undisclosed,35918,0,0,35918,0,35734
+val,primary,B3* tuned heuristic,nr_gap,474,0,0,474,0,161
+val,primary,B3* tuned heuristic,revised,6829,6824,6673,0,141,5439
+val,primary,B3* tuned heuristic,stable,221443,221144,221069,0,70,149428
+val,primary,B3* tuned heuristic,undisclosed,35918,0,0,35918,0,35734
+val,primary,B3f form-aware invalidation,nr_gap,474,0,0,474,0,161
+val,primary,B3f form-aware invalidation,revised,6829,6824,6672,0,142,5434
+val,primary,B3f form-aware invalidation,stable,221443,221144,221003,0,136,149093
+val,primary,B3f form-aware invalidation,undisclosed,35918,0,0,35918,0,35734
+val,primary,B3r FinMemGuard-rule (rule release),nr_gap,474,101,0,373,101,95
+val,primary,B3r FinMemGuard-rule (rule release),revised,6829,6733,6730,0,3,5730
+val,primary,B3r FinMemGuard-rule (rule release),stable,221443,220978,220852,0,126,172679
+val,primary,B3r FinMemGuard-rule (rule release),undisclosed,35918,0,0,35918,0,35704
+val,primary,B4 learned (lam=0.25),nr_gap,474,0,0,474,0,155
+val,primary,B4 learned (lam=0.25),revised,6829,6822,6070,0,729,4147
+val,primary,B4 learned (lam=0.25),stable,221443,220824,220759,0,60,112210
+val,primary,B4 learned (lam=0.25),undisclosed,35918,0,0,35918,0,26247
+val,primary,B4 learned (lam=0.5),nr_gap,474,0,0,474,0,155
+val,primary,B4 learned (lam=0.5),revised,6829,6824,6118,0,682,4191
+val,primary,B4 learned (lam=0.5),stable,221443,220862,220800,0,57,113218
+val,primary,B4 learned (lam=0.5),undisclosed,35918,0,0,35918,0,26309
+val,primary,B4 learned (lam=1),nr_gap,474,0,0,474,0,154
+val,primary,B4 learned (lam=1),revised,6829,6824,6217,0,587,4361
+val,primary,B4 learned (lam=1),stable,221443,220788,220726,0,57,116132
+val,primary,B4 learned (lam=1),undisclosed,35918,0,0,35918,0,26234
+val,primary,B4 learned (lam=10),nr_gap,474,0,0,474,0,160
+val,primary,B4 learned (lam=10),revised,6829,6820,6593,0,220,4964
+val,primary,B4 learned (lam=10),stable,221443,220634,220577,0,52,139196
+val,primary,B4 learned (lam=10),undisclosed,35918,0,0,35918,0,25561
+val,primary,B4 learned (lam=2),nr_gap,474,0,0,474,0,154
+val,primary,B4 learned (lam=2),revised,6829,6824,6395,0,409,4513
+val,primary,B4 learned (lam=2),stable,221443,220726,220664,0,57,121937
+val,primary,B4 learned (lam=2),undisclosed,35918,0,0,35918,0,25999
+val,primary,B4 learned (lam=20),nr_gap,474,0,0,474,0,160
+val,primary,B4 learned (lam=20),revised,6829,6820,6631,0,185,5018
+val,primary,B4 learned (lam=20),stable,221443,220532,220473,0,54,142359
+val,primary,B4 learned (lam=20),undisclosed,35918,0,0,35918,0,25495
+val,primary,B4 learned (lam=3),nr_gap,474,0,0,474,0,154
+val,primary,B4 learned (lam=3),revised,6829,6824,6454,0,356,4642
+val,primary,B4 learned (lam=3),stable,221443,220732,220670,0,57,124235
+val,primary,B4 learned (lam=3),undisclosed,35918,0,0,35918,0,25989
+val,primary,B4 learned (lam=5),nr_gap,474,0,0,474,0,154
+val,primary,B4 learned (lam=5),revised,6829,6823,6489,0,320,4692
+val,primary,B4 learned (lam=5),stable,221443,220653,220593,0,55,126168
+val,primary,B4 learned (lam=5),undisclosed,35918,0,0,35918,0,25965
+val,primary,B4 learned [seed 1] (lam=20),nr_gap,474,0,0,474,0,154
+val,primary,B4 learned [seed 1] (lam=20),revised,6829,6821,6663,0,154,4980
+val,primary,B4 learned [seed 1] (lam=20),stable,221443,220525,220481,0,44,144945
+val,primary,B4 learned [seed 1] (lam=20),undisclosed,35918,0,0,35918,0,25876
+val,primary,B4 learned [seed 1] (lam=3),nr_gap,474,0,0,474,0,156
+val,primary,B4 learned [seed 1] (lam=3),revised,6829,6821,6464,0,345,4628
+val,primary,B4 learned [seed 1] (lam=3),stable,221443,220683,220633,0,49,125673
+val,primary,B4 learned [seed 1] (lam=3),undisclosed,35918,0,0,35918,0,25797
+val,primary,B4 learned [seed 2] (lam=20),nr_gap,474,0,0,474,0,157
+val,primary,B4 learned [seed 2] (lam=20),revised,6829,6823,6606,0,206,4879
+val,primary,B4 learned [seed 2] (lam=20),stable,221443,220318,220263,0,50,139198
+val,primary,B4 learned [seed 2] (lam=20),undisclosed,35918,0,0,35918,0,25423
+val,primary,B4 learned [seed 2] (lam=3),nr_gap,474,0,0,474,0,156
+val,primary,B4 learned [seed 2] (lam=3),revised,6829,6821,6439,0,370,4570
+val,primary,B4 learned [seed 2] (lam=3),stable,221443,220523,220469,0,49,124040
+val,primary,B4 learned [seed 2] (lam=3),undisclosed,35918,0,0,35918,0,25329
+val,primary,B4-sup round-0 only (lam=20),nr_gap,474,0,0,474,0,153
+val,primary,B4-sup round-0 only (lam=20),revised,6829,6820,6585,0,234,5010
+val,primary,B4-sup round-0 only (lam=20),stable,221443,219497,219455,0,41,141275
+val,primary,B4-sup round-0 only (lam=20),undisclosed,35918,0,0,35918,0,24529
+val,primary,B4-sup round-0 only (lam=3),nr_gap,474,0,0,474,0,157
+val,primary,B4-sup round-0 only (lam=3),revised,6829,6815,6389,0,417,4700
+val,primary,B4-sup round-0 only (lam=3),stable,221443,220111,220005,0,105,127151
+val,primary,B4-sup round-0 only (lam=3),undisclosed,35918,0,0,35918,0,24681
+val,strict,B0 snapshot RAG,nr_gap,2656,2656,0,0,2656,2656
+val,strict,B0 snapshot RAG,revised,6829,6829,4209,0,912,6829
+val,strict,B0 snapshot RAG,stable,221443,221443,106759,0,51556,221443
+val,strict,B0 snapshot RAG,undisclosed,35918,35918,0,0,35918,35918
+val,strict,B1 time-filtered RAG,nr_gap,2656,2656,0,0,2656,2656
+val,strict,B1 time-filtered RAG,revised,6829,6829,6829,0,0,6829
+val,strict,B1 time-filtered RAG,stable,221443,221443,221443,0,0,221443
+val,strict,B1 time-filtered RAG,undisclosed,35918,0,0,35918,0,35918
+val,strict,B1c time-filtered RAG + NR gate (claim release),nr_gap,2656,0,0,2656,0,2656
+val,strict,B1c time-filtered RAG + NR gate (claim release),revised,6829,6824,6824,0,0,6829
+val,strict,B1c time-filtered RAG + NR gate (claim release),stable,221443,221144,221144,0,0,221443
+val,strict,B1c time-filtered RAG + NR gate (claim release),undisclosed,35918,0,0,35918,0,35918
+val,strict,B1g time-filtered RAG + NR gate (rule release),nr_gap,2656,1533,0,1123,1533,2656
+val,strict,B1g time-filtered RAG + NR gate (rule release),revised,6829,6733,6733,0,0,6829
+val,strict,B1g time-filtered RAG + NR gate (rule release),stable,221443,220994,220994,0,0,221443
+val,strict,B1g time-filtered RAG + NR gate (rule release),undisclosed,35918,0,0,35918,0,35918
+val,strict,B2 TTL memory (365d),nr_gap,2656,2656,0,0,2656,1029
+val,strict,B2 TTL memory (365d),revised,6829,6829,4710,0,2090,3077
+val,strict,B2 TTL memory (365d),stable,221443,221443,202883,0,18060,103119
+val,strict,B2 TTL memory (365d),undisclosed,35918,0,0,35918,0,35918
+val,strict,B2 TTL memory (90d),nr_gap,2656,2656,0,0,2656,1805
+val,strict,B2 TTL memory (90d),revised,6829,6829,6455,0,373,4988
+val,strict,B2 TTL memory (90d),stable,221443,221443,217187,0,4126,150935
+val,strict,B2 TTL memory (90d),undisclosed,35918,0,0,35918,0,35918
+val,strict,B2 naive persistent memory,nr_gap,2656,2656,0,0,2656,553
+val,strict,B2 naive persistent memory,revised,6829,6829,2862,0,3838,1594
+val,strict,B2 naive persistent memory,stable,221443,221443,174641,0,43119,72105
+val,strict,B2 naive persistent memory,undisclosed,35918,2843,0,33075,2843,34169
+val,strict,B3 - NR gate,nr_gap,2656,2656,0,0,2656,1969
+val,strict,B3 - NR gate,revised,6829,6829,6826,0,3,5794
+val,strict,B3 - NR gate,stable,221443,221443,221317,0,126,172828
+val,strict,B3 - NR gate,undisclosed,35918,0,0,35918,0,35918
+val,strict,B3 - invalidation,nr_gap,2656,0,0,2656,0,1702
+val,strict,B3 - invalidation,revised,6829,6824,4183,0,2550,2436
+val,strict,B3 - invalidation,stable,221443,221144,221003,0,136,91425
+val,strict,B3 - invalidation,undisclosed,35918,0,0,35918,0,35734
+val,strict,B3 FinMemGuard-rule (claim release),nr_gap,2656,0,0,2656,0,1702
+val,strict,B3 FinMemGuard-rule (claim release),revised,6829,6824,6821,0,3,5794
+val,strict,B3 FinMemGuard-rule (claim release),stable,221443,221144,221018,0,126,172848
+val,strict,B3 FinMemGuard-rule (claim release),undisclosed,35918,0,0,35918,0,35734
+val,strict,B3* tuned heuristic,nr_gap,2656,0,0,2656,0,1702
+val,strict,B3* tuned heuristic,revised,6829,6824,6673,0,141,5439
+val,strict,B3* tuned heuristic,stable,221443,221144,221069,0,70,149428
+val,strict,B3* tuned heuristic,undisclosed,35918,0,0,35918,0,35734
+val,strict,B3f form-aware invalidation,nr_gap,2656,0,0,2656,0,1702
+val,strict,B3f form-aware invalidation,revised,6829,6824,6672,0,142,5434
+val,strict,B3f form-aware invalidation,stable,221443,221144,221003,0,136,149093
+val,strict,B3f form-aware invalidation,undisclosed,35918,0,0,35918,0,35734
+val,strict,B3r FinMemGuard-rule (rule release),nr_gap,2656,1533,0,1123,1533,1352
+val,strict,B3r FinMemGuard-rule (rule release),revised,6829,6733,6730,0,3,5730
+val,strict,B3r FinMemGuard-rule (rule release),stable,221443,220978,220852,0,126,172679
+val,strict,B3r FinMemGuard-rule (rule release),undisclosed,35918,0,0,35918,0,35704
+val,strict,B4 learned (lam=0.25),nr_gap,2656,0,0,2656,0,1696
+val,strict,B4 learned (lam=0.25),revised,6829,6822,6070,0,729,4147
+val,strict,B4 learned (lam=0.25),stable,221443,220824,220759,0,60,112210
+val,strict,B4 learned (lam=0.25),undisclosed,35918,0,0,35918,0,26247
+val,strict,B4 learned (lam=0.5),nr_gap,2656,0,0,2656,0,1696
+val,strict,B4 learned (lam=0.5),revised,6829,6824,6118,0,682,4191
+val,strict,B4 learned (lam=0.5),stable,221443,220862,220800,0,57,113218
+val,strict,B4 learned (lam=0.5),undisclosed,35918,0,0,35918,0,26309
+val,strict,B4 learned (lam=1),nr_gap,2656,0,0,2656,0,1695
+val,strict,B4 learned (lam=1),revised,6829,6824,6217,0,587,4361
+val,strict,B4 learned (lam=1),stable,221443,220788,220726,0,57,116132
+val,strict,B4 learned (lam=1),undisclosed,35918,0,0,35918,0,26234
+val,strict,B4 learned (lam=10),nr_gap,2656,0,0,2656,0,1701
+val,strict,B4 learned (lam=10),revised,6829,6820,6593,0,220,4964
+val,strict,B4 learned (lam=10),stable,221443,220634,220577,0,52,139196
+val,strict,B4 learned (lam=10),undisclosed,35918,0,0,35918,0,25561
+val,strict,B4 learned (lam=2),nr_gap,2656,0,0,2656,0,1695
+val,strict,B4 learned (lam=2),revised,6829,6824,6395,0,409,4513
+val,strict,B4 learned (lam=2),stable,221443,220726,220664,0,57,121937
+val,strict,B4 learned (lam=2),undisclosed,35918,0,0,35918,0,25999
+val,strict,B4 learned (lam=20),nr_gap,2656,0,0,2656,0,1701
+val,strict,B4 learned (lam=20),revised,6829,6820,6631,0,185,5018
+val,strict,B4 learned (lam=20),stable,221443,220532,220473,0,54,142359
+val,strict,B4 learned (lam=20),undisclosed,35918,0,0,35918,0,25495
+val,strict,B4 learned (lam=3),nr_gap,2656,0,0,2656,0,1695
+val,strict,B4 learned (lam=3),revised,6829,6824,6454,0,356,4642
+val,strict,B4 learned (lam=3),stable,221443,220732,220670,0,57,124235
+val,strict,B4 learned (lam=3),undisclosed,35918,0,0,35918,0,25989
+val,strict,B4 learned (lam=5),nr_gap,2656,0,0,2656,0,1695
+val,strict,B4 learned (lam=5),revised,6829,6823,6489,0,320,4692
+val,strict,B4 learned (lam=5),stable,221443,220653,220593,0,55,126168
+val,strict,B4 learned (lam=5),undisclosed,35918,0,0,35918,0,25965
+val,strict,B4 learned [seed 1] (lam=20),nr_gap,2656,0,0,2656,0,1694
+val,strict,B4 learned [seed 1] (lam=20),revised,6829,6821,6663,0,154,4980
+val,strict,B4 learned [seed 1] (lam=20),stable,221443,220525,220481,0,44,144945
+val,strict,B4 learned [seed 1] (lam=20),undisclosed,35918,0,0,35918,0,25876
+val,strict,B4 learned [seed 1] (lam=3),nr_gap,2656,0,0,2656,0,1696
+val,strict,B4 learned [seed 1] (lam=3),revised,6829,6821,6464,0,345,4628
+val,strict,B4 learned [seed 1] (lam=3),stable,221443,220683,220633,0,49,125673
+val,strict,B4 learned [seed 1] (lam=3),undisclosed,35918,0,0,35918,0,25797
+val,strict,B4 learned [seed 2] (lam=20),nr_gap,2656,0,0,2656,0,1693
+val,strict,B4 learned [seed 2] (lam=20),revised,6829,6823,6606,0,206,4879
+val,strict,B4 learned [seed 2] (lam=20),stable,221443,220318,220263,0,50,139198
+val,strict,B4 learned [seed 2] (lam=20),undisclosed,35918,0,0,35918,0,25423
+val,strict,B4 learned [seed 2] (lam=3),nr_gap,2656,0,0,2656,0,1696
+val,strict,B4 learned [seed 2] (lam=3),revised,6829,6821,6439,0,370,4570
+val,strict,B4 learned [seed 2] (lam=3),stable,221443,220523,220469,0,49,124040
+val,strict,B4 learned [seed 2] (lam=3),undisclosed,35918,0,0,35918,0,25329
+val,strict,B4-sup round-0 only (lam=20),nr_gap,2656,0,0,2656,0,1696
+val,strict,B4-sup round-0 only (lam=20),revised,6829,6820,6585,0,234,5010
+val,strict,B4-sup round-0 only (lam=20),stable,221443,219497,219455,0,41,141275
+val,strict,B4-sup round-0 only (lam=20),undisclosed,35918,0,0,35918,0,24529
+val,strict,B4-sup round-0 only (lam=3),nr_gap,2656,0,0,2656,0,1698
+val,strict,B4-sup round-0 only (lam=3),revised,6829,6815,6389,0,417,4700
+val,strict,B4-sup round-0 only (lam=3),stable,221443,220111,220005,0,105,127151
+val,strict,B4-sup round-0 only (lam=3),undisclosed,35918,0,0,35918,0,24681

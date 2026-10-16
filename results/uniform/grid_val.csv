@@ -1,0 +1,13 @@
+,0
+"B3 grid[inv=form_aware,age=365]",0.9595279763232198
+"B3 grid[inv=form_aware,age=180]",0.9591513174555777
+"B3 grid[inv=form_aware,age=None]",0.9585779190589765
+"B3 grid[inv=annual_and_amend,age=180]",0.9582689189342425
+"B3 grid[inv=all,age=180]",0.9576633920843051
+"B3 grid[inv=all,age=365]",0.9572948598254479
+"B3 grid[inv=amend_only,age=180]",0.9564659457293726
+"B3 grid[inv=all,age=None]",0.956315886953202
+"B3 grid[inv=annual_and_amend,age=365]",0.9562790337273164
+"B3 grid[inv=annual_and_amend,age=None]",0.9552235195397694
+"B3 grid[inv=amend_only,age=365]",0.9499610678741925
+"B3 grid[inv=amend_only,age=None]",0.93898050747837
