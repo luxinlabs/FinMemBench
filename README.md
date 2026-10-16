@@ -24,7 +24,7 @@ SEC_UA="FinMemBench research you@example.org" ./run_all.sh
 ## Reproduction levels
 | Level | Command | Needs | Reproduces |
 |---|---|---|---|
-| 1. Tables from released results | `python -m finmemguard.report --skip_audit --paper out` | this repo only | Tables II, III, V and Fig. 2 of the paper, byte-identical (`out/tables/*.tex`, `out/figs/frontier.pdf`) |
+| 1. Tables from released results | `python -m finmemguard.report --skip_audit --paper out` | this repo only | Tables II, III, V of the paper byte-identical (`out/tables/*.tex`); Fig. 2 identical except its PDF creation timestamp (`out/figs/frontier.pdf`) |
 | 2. Unit tests | `python -m pytest -q` | this repo only | 24 synthetic tests |
 | 3. Full benchmark and results | `SEC_UA=... ./run_all.sh` | SEC bulk archives matching `data_manifest/SHA256SUMS` (about 45 min with 6 workers) | `results/uniform`, `results/recency`, `results/sens` |
 | 4. Notice texts, audit sampler, LLM check | included in `run_all.sh` when `SEC_UA` is set | EDGAR access; local ollama with `qwen2.5:7b-instruct` | `results/llm_loop*`; audit judgements themselves are manual |
