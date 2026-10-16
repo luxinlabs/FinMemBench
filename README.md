@@ -21,6 +21,16 @@ SEC_UA="FinMemBench research you@example.org" ./run_all.sh
 ```
 `run_all.sh` runs ingestion → benchmark construction (Uniform and Recency workloads) → training and evaluation with issuer-clustered bootstrap CIs → report tables. With `SEC_UA` set it also downloads the Item 4.02 notice texts, runs the document-audit sampler, and the frozen-LLM refresh check (requires a local ollama server with `qwen2.5:7b-instruct`). Set `OMP_NUM_THREADS=1` on memory-constrained machines.
 
+## Reproduction levels
+| Level | Command | Needs | Reproduces |
+|---|---|---|---|
+| 1. Tables from released results | `python -m finmemguard.report --skip_audit --paper out` | this repo only | Tables II, III, V and Fig. 2 of the paper, byte-identical (`out/tables/*.tex`, `out/figs/frontier.pdf`) |
+| 2. Unit tests | `python -m pytest -q` | this repo only | 24 synthetic tests |
+| 3. Full benchmark and results | `SEC_UA=... ./run_all.sh` | SEC bulk archives matching `data_manifest/SHA256SUMS` (about 45 min with 6 workers) | `results/uniform`, `results/recency`, `results/sens` |
+| 4. Notice texts, audit sampler, LLM check | included in `run_all.sh` when `SEC_UA` is set | EDGAR access; local ollama with `qwen2.5:7b-instruct` | `results/llm_loop*`; audit judgements themselves are manual |
+
+Dependencies are pinned in `requirements.txt`.
+
 ## Layout
 | Path | Contents |
 |---|---|
